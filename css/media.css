@@ -1,0 +1,141 @@
+/* Extra small devices (portrait phones, less than 576px)  */
+
+@media (max-width: 575.98px) { 
+    
+ /* header section  */
+
+ .header-content {
+    padding: 60px 0 !important;
+}
+ .header-content h2 {
+    font-size: 30px !important;
+    
+}
+
+
+.hdr-btn{
+    text-align: center !important;
+}
+.padd-custom {
+    
+    margin-bottom: 15px;
+}
+.navbar-light .navbar-toggler {
+   
+    margin-left: 0px !important;
+}
+/* about section  */
+.hdr-title h4 {
+    font-size: 27px;
+}
+
+/* price section  */
+.btn-custom111 {
+    
+    margin-left: auto !important;
+}
+/* footer section  */
+
+.footer-content{
+    padding-bottom: 80px;
+}
+
+}
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    
+ /* header section  */
+
+ .header-content {
+    padding: 56px 0;
+}
+ .header-content h2 {
+    font-size: 47px !important;
+    
+}
+.nav-link {
+    
+    text-align: right;
+}
+
+.hdr-btn{
+    text-align: center !important;
+}
+.padd-custom {
+    margin-bottom: 15px;
+}
+/* price section  */
+.btn-custom111 {
+    
+    margin-left: auto !important;
+}
+.img-none{
+    background-image: none;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header section  */
+	.header-content h2 {
+        font-size: 61px !important;
+        
+    }
+	.nav-link {
+        
+        text-align: right;
+    }
+	
+	.hdr-btn{
+        text-align: center !important;
+    }
+    .padd-custom {
+        
+        margin-bottom: 15px;
+    }
+
+    .hdr-title h4 {
+        font-size: 27px;
+    }
+    /* about section  */
+    .about-image{
+        margin-top: 48px;
+    }
+    /* price section  */
+    .btn-custom111 {
+    
+    margin-left: auto !important;
+}
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /* header section  */
+	.header-content h2 {
+        font-size: 61px !important;
+        
+    }
+
+        /* price section  */
+    .btn-custom111 { 
+    margin-left: auto !important;
+}
+
+.mb-custom{
+    padding-bottom: 100px;
+}
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+@font-face{
+    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Yeseva One', cursive;
+} 
+
+html{
+    font-family: 'Yeseva One', cursive;
+    scroll-behavior: smooth;
+}
+
+
+/* Header section  */
+.header{
+    background-image: url(../image/res-bg.png);
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+       
+    
+}
+button:focus {
+    
+    outline: none;
+}
+
+
+
+.menu ul li a{
+    color: #fff !important;
+    font-size: 20px;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+.menu ul li a:hover{
+    color: #28210d !important;
+}
+.menu ul li a i{
+    color: #dab33e !important;
+    font-size: 20px;
+}
+
+.header-content{
+    padding: 80px 0;
+}
+.header-content h2{
+    font-size: 90px;
+    color: #fff;
+    font-family: 'Yeseva One', cursive; 
+    
+}
+.hdr-desn{
+    padding-top: 20px;
+}
+.btn-custom{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid #121516;
+    color: #fff;
+    border-radius: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom:80px ;
+
+}
+.btn-white{
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #fff;
+}
+.btn.focus, .btn:focus {
+    
+    box-shadow: 0 0 0 0rem rgba(0,0,0,0.2);
+}
+.padd-custom{
+    padding: 10px 37px;
+}
+
+/* About section  */
+
+.about-section{
+    background-image: url(../image/restaurant-bg-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.hdr-title h4{
+    font-size: 34px;
+    font-weight: 700;
+    color: #cc9900;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 20px;
+}
+.hdr-title p {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 28px;
+}
+/* fine section  */
+.fine{
+    background-image: url(../image/part-3-bg-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+
+}
+
+.text-bg{
+    background-image: url(../image/part3-text-bg-3.png);
+    color: #fff;
+    padding: 80px 0;
+}
+.fine-content h4{
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+}
+.fine-content p{
+    padding: 20px 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+/* price section  */
+
+.price-section{
+    background-image: url(../image/part-4-bg---.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.price-content h4{
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+}
+.price-content h6{
+    font-size: 26px;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+}
+.price-content{
+    padding-bottom: 20px;
+    
+}
+.hr-custom{
+    border-bottom: 1px solid #cc9900;
+}
+.btn-custom111 {
+    background-image: url(../image/btn-button.png);
+    color: #fff;
+    border-radius: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 424px;
+}
+.border-custom{
+    border:1px solid #cc9900 ;
+}
+
+.review{
+    background-image: url(../image/restaurant-bg-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+}
+/* review section  */
+
+.review-tex{
+    background-image: url(../image/rivew.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.review-content h4{
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #fff;
+}
+.review-content p{
+    font-size: 26px;
+    font-family: 'Gentium Book Basic', serif;
+    color: #fff;
+    padding-top: 20px;
+}
+/* resvation section  */
+
+.resvation{
+    background-image: url(../image/part-4-bg---.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color:  #cc9900;
+    outline: none;
+    box-shadow:none;
+}
+label{
+    color: #cc9900;
+    font-weight:700 ;
+    text-transform: capitalize;
+}
+.btn-rescustom{
+    background-color: #cc9900;
+    color: #fff;
+    border-radius: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 7px 40px;
+    font-family: 'Lato', sans-serif;
+    
+}
+/* footer section  */
+
+.footer{
+    padding: 80px 0;
+    background-color: #191919;
+}
+
+.footer-content h4{
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 10px;
+}
+.footer-content p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+}
